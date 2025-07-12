@@ -6,10 +6,7 @@ const HeroImageSection = () => {
             <div className="lg:col-span-1 col-span-2">
                 <p className="text-xs mb-4">Exclusive Discounts</p>
                 <h1
-                    style={{
-                        fontFamily: `var(--Fredoka-Bold)`,
-                    }}
-                    className="text-5xl text-[#3B4B33] font-lighter mb-6">Magical Moments
+                    className="text-5xl text-[#3B4B33] font-lighter mb-6 font-fredoke">Magical Moments
                     Awaits You at Every
                     Corner</h1>
                 <p className="mb-6 text-xs">We Turn Ordinary Days Into Magical Adventures with Our
