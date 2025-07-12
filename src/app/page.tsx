@@ -1,10 +1,9 @@
-import Header from "@/components/PagesComponents/NavBar/Header";
-import { headerData } from "@/lib/constant";
+import HomePage from "@/components/PagesComponents/pages";
 
 export default function Home() {
   return (
-    <div>
-      <Header {...headerData} />
-    </div>
+    <>
+     <HomePage />
+    </>
   );
 }
