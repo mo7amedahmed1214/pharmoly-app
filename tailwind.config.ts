@@ -50,8 +50,9 @@ const config: Config = {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
-        bgButton: "#FE86141A",
-        textButton: "#FE8614",
+        bgButton: "#FFE4E6",
+        bgButtonHover: "#FECACA",
+        textButton: "#BE123C",
       },
       borderRadius: {
         lg: "var(--radius)",

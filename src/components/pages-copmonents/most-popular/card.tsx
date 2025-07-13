@@ -33,7 +33,7 @@ export default function Card() {
         </p>
 
         {/* Title */}
-        <h3 className="text-base font-medium font-fredoke tracking-32">
+        <h3 className="text-base font-medium font-fredoke tracking-32 underline">
           Always Discreet Incontinence Pads Heavy Absorbency
         </h3>
 
@@ -44,7 +44,7 @@ export default function Card() {
       </div>
 
       {/* Add Button */}
-      <Button className="w-full rounded-full h-10 mt-5">Add to cart</Button>
+      <Button className="w-full rounded-full h-10 mt-5 transition-all duration-500">Add to cart</Button>
 
       {/* Progress */}
       <Progress value={50} className="w-full mt-4" />
