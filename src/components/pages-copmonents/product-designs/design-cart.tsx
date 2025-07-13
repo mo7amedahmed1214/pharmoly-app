@@ -11,14 +11,6 @@ const DesignCard = () => {
                 <Image src="/images/product2.png" alt="" width={200} height={200} />
             </div>
             <div className="col-span-2 row-span-4">
-                <p className="text-sm font-semibold absolute top-3 left-3 tracking-16 bg-green-600 text-white px-2.5 py-1 flex items-center rounded-full">
-                    23%
-                </p>
-
-                {/*Wishlist  */}
-                <div className="absolute top-3 right-3 size-9 bg-bgButton rounded-full flex justify-center items-center border border-red-200">
-                    <Heart size={20} className="text-textButton" />
-                </div>
 
                 {/* Desc */}
                 <div className="space-y-2">
