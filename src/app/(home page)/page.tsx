@@ -1,4 +1,7 @@
+import Bannar from "@/components/pages-copmonents/bannar/bannar";
+import Features from "@/components/pages-copmonents/features/features";
 import HeroSection from "@/components/pages-copmonents/hero-section/hero-section";
+import MostPopular from "@/components/pages-copmonents/most-popular/most-popular";
 import ServicesSection from "@/components/pages-copmonents/services-section/services-section";
 
 export default function Home() {
@@ -9,6 +12,15 @@ export default function Home() {
 
       {/* Services */}
       <ServicesSection />
+
+      {/* Most popular */}
+      <MostPopular />
+
+      {/* Features */}
+      <Features />
+
+      {/* Bannar */}
+      <Bannar />
     </section>
   );
 }

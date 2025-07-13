@@ -50,6 +50,8 @@ const config: Config = {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
+        bgButton: "#FE86141A",
+        textButton: "#FE8614",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -62,13 +64,14 @@ const config: Config = {
       letterSpacing: {
         16: "-0.16px",
         4: "-0.4px",
+        32: "-0.32px",
       },
       fontFamily: {
         fredoke: `var(--Fredoka-Bold)`,
       },
-      fontSize:{
-        10:"10px"
-      }
+      fontSize: {
+        10: "10px",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
