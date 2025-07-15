@@ -52,3 +52,69 @@ export interface HeaderProps {
   cartCount: number;
 }
 
+export interface Product {
+  id: string;
+  name: string;
+  category: string;
+  brand: string;
+  sku: string;
+  rating: number;
+  reviewCount: number;
+  price: number;
+  originalPrice?: number;
+  discount?: number;
+  inStock: boolean;
+  description: string;
+  images: ProductImage[];
+  features: ProductFeature[];
+}
+
+export interface ProductImage {
+  id: string;
+  url: string;
+  alt: string;
+  isMain?: boolean;
+}
+
+export interface ProductFeature {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface BreadcrumbItem {
+  label: string;
+  href: string;
+}
+
+export interface RelatedProduct {
+  id: string;
+  name: string;
+  price: number;
+  originalPrice?: number;
+  discount?: number;
+  rating: number;
+  reviewCount: number;
+  image: string;
+  inStock: boolean;
+}
+
+export interface ProductTabContent {
+  id: string;
+  label: string;
+  content: string;
+}
+
+export interface SocialSharePlatform {
+  name: string;
+  icon: string;
+  url: string;
+}
+
+export interface ProductDetailsPageProps {
+  product: Product;
+  relatedProducts: RelatedProduct[];
+  breadcrumbs: BreadcrumbItem[];
+}
+
+

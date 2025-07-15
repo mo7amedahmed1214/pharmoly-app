@@ -1,7 +1,6 @@
 'use client';
 
 import Slider from 'react-slick';
-import style from './hero-section.module.css';
 
 const slides = [
   {

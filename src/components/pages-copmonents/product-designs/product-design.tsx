@@ -8,11 +8,7 @@ const ProductDesign = () => {
                 {/* first col*/}
                 <div className="col-span-3 md:col-span-1 row-span-3 ">
                     <DesignCard />
-                    <DesignCard />
-                    <DesignCard />
                 </div>
-
-
 
                 {/* second col */}
                 <div className="col-span-3 md:col-span-1  row-span-3 ">
@@ -21,8 +17,7 @@ const ProductDesign = () => {
                 {/* third col */}
                 <div className="col-span-3 md:col-span-1  row-span-3 ">
                     <DesignCard />
-                    <DesignCard />
-                    <DesignCard />
+
                 </div>
             </div>
         </div>
